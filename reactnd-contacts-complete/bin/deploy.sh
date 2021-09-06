@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./build s3://udagram-test01/
+aws s3 cp ./build s3://udacity-udagram-test/ --recursive --acl public-read
