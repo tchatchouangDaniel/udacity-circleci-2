@@ -18,6 +18,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "s3:deploy:windows": "bash ./bin/deploy.sh",
-    "s3:deploy:circleci": "chmod +x ./bin/deploy && ./bin/deploy"
+    "s3:deploy:circleci": "chmod +x ./bin/deploy && ./bin/deploy.sh"
   }
 }
