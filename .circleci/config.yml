@@ -18,6 +18,8 @@ jobs:
       - aws-cli/setup
       # install dependencies in both apps
       # then build both apps
+      # install aws cli
+      # deploy UI to s3
       - run:
           name: install UI dependencies
           command: |
